@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBLIC RELEASE PORTAL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="live-indicator">
+                <span class="live-dot"></span>
+                <span class="live-text">LIVE</span>
+            </div>
+            <h1>BEARDBEARS FILES</h1>
+        </header>
+
+        <main id="main-content">
+            <!-- Countdown Phase -->
+            <section id="countdown-phase" class="phase">
+                <div class="countdown-display">
+                    <div class="countdown-boxes">
+                        <div class="countdown-box">
+                            <div class="countdown-number" id="hours">00</div>
+                            <div class="countdown-label">HOURS</div>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-box">
+                            <div class="countdown-number" id="minutes">00</div>
+                            <div class="countdown-label">MINUTES</div>
+                        </div>
+                        <div class="countdown-separator">:</div>
+                        <div class="countdown-box">
+                            <div class="countdown-number" id="seconds">00</div>
+                            <div class="countdown-label">SECONDS</div>
+                        </div>
+                    </div>
+                    <div class="classified-label">CLASSIFIED</div>
+                </div>
+            </section>
+
+            <!-- Terminal Phase -->
+            <section id="terminal-phase" class="phase hidden">
+                <div class="scanline"></div>
+                <pre class="terminal-output"></pre>
+            </section>
+
+            <!-- Release Phase -->
+            <section id="release-phase" class="phase hidden">
+                <div class="release-header">
+                    <div class="release-title">BEARDBEARS FILES - DECLASSIFIED</div>
+                </div>
+                
+                <div class="document-viewer">
+                    <div class="document-header">
+                        <div class="document-header-left">
+                            <svg class="doc-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+                            </svg>
+                            <span class="document-filename" id="doc-filename"></span>
+                        </div>
+                        <span class="classification" id="doc-classification"></span>
+                    </div>
+                    <div class="document-body" id="doc-body"></div>
+                </div>
+
+                <div class="controls">
+                    <span class="button--bubble__container">
+                        <button id="skip-btn" class="btn btn-secondary button--bubble">Skip typing</button>
+                        <span class="button--bubble__effect-container">
+                            <span class="circle top-left"></span>
+                            <span class="circle top-left"></span>
+                            <span class="circle top-left"></span>
+                            <span class="button effect-button"></span>
+                            <span class="circle bottom-right"></span>
+                            <span class="circle bottom-right"></span>
+                            <span class="circle bottom-right"></span>
+                        </span>
+                    </span>
+                    <span class="button--bubble__container">
+                        <button id="next-btn" class="btn btn-primary button--bubble" disabled>Next file</button>
+                        <span class="button--bubble__effect-container">
+                            <span class="circle top-left"></span>
+                            <span class="circle top-left"></span>
+                            <span class="circle top-left"></span>
+                            <span class="button effect-button"></span>
+                            <span class="circle bottom-right"></span>
+                            <span class="circle bottom-right"></span>
+                            <span class="circle bottom-right"></span>
+                        </span>
+                    </span>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="social-icons">
+                <a href="#" class="social-icon" aria-label="Twitch">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-icon" aria-label="X/Twitter">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+          <feComposite in="SourceGraphic" in2="goo"/>
+        </filter>
+      </defs>
+    </svg>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="ascii-glitch.js"></script>
+</body>
+</html>

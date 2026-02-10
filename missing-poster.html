@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISSING PERSON</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            border: solid 2em transparent;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        body {
+            background: transparent;
+            font-family: 'Courier New', monospace;
+            padding: 20px;
+            height: 100%;
+            overflow-y: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .poster-container {
+            max-width: 460px;
+            width: 100%;
+            background: rgb(36, 36, 36);
+            border: 2px solid #333333;
+            margin: 20px auto;
+        }
+
+        .poster-header {
+            background: rgb(36, 36, 36);
+            text-align: center;
+            padding: 20px;
+            border-bottom: 1px solid #333333;
+        }
+
+        .poster-header h1 {
+            font-size: 38px;
+            font-weight: 800;
+            letter-spacing: 14px;
+            color: #cc3333;
+            margin: 0;
+            text-shadow: 0 0 20px rgba(204, 51, 51, 0.6), 0 0 10px rgba(204, 51, 51, 0.4);
+        }
+
+        .poster-body {
+            padding: 25px 30px;
+        }
+
+        .poster-image {
+            width: 100%;
+            background: #1f1f1f;
+            border: 1px solid #333333;
+            padding: 8px;
+            margin-bottom: 20px;
+            height: 280px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .poster-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+            filter: grayscale(100%);
+        }
+
+        .name-section {
+            text-align: center;
+            margin-bottom: 18px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333333;
+        }
+
+        .info-label {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #666666;
+            margin-bottom: 6px;
+            text-shadow: 0 0 4px rgba(255, 255, 255, 0.06);
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: 600;
+            color: #ffffff;
+            letter-spacing: 5px;
+            margin-bottom: 5px;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
+        }
+
+        .species {
+            font-size: 14px;
+            color: #888888;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            margin-bottom: 18px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333333;
+        }
+
+        .info-item {
+            padding: 8px 0;
+        }
+
+        .info-item:nth-child(odd) {
+            padding-right: 12px;
+        }
+
+        .info-item:nth-child(even) {
+            padding-left: 12px;
+        }
+
+        .info-value {
+            font-size: 13px;
+            color: #cccccc;
+            margin-top: 4px;
+            text-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
+        }
+
+        .highlight {
+            color: #cc3333;
+            text-shadow: 0 0 15px rgba(204, 51, 51, 0.5), 0 0 8px rgba(204, 51, 51, 0.3);
+        }
+
+        .info-section {
+            margin-bottom: 18px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333333;
+        }
+
+        .status {
+            font-size: 20px;
+            font-weight: 400;
+            color: #cc3333;
+            letter-spacing: 4px;
+            margin-top: 6px;
+            text-shadow: 0 0 15px rgba(204, 51, 51, 0.5), 0 0 8px rgba(204, 51, 51, 0.3);
+        }
+
+        .description,
+        .notes {
+            font-size: 12px;
+            line-height: 1.6;
+            color: #aaaaaa;
+            margin-top: 6px;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.08);
+        }
+
+        .contact-section {
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .phone {
+            font-size: 28px;
+            font-weight: 400;
+            color: #cc3333;
+            letter-spacing: 3px;
+            margin: 12px 0;
+            text-shadow: 0 0 20px rgba(204, 51, 51, 0.6), 0 0 10px rgba(204, 51, 51, 0.4);
+        }
+
+        .subtext {
+            font-size: 8px;
+            color: #666666;
+            line-height: 1.6;
+            margin: 12px 0;
+        }
+
+        .case-number {
+            font-size: 10px;
+            color: #555555;
+            letter-spacing: 1.5px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #333333;
+        }
+
+        .back-button {
+            position: fixed;
+            top: 4em;
+            left: 4em;
+            padding: 10px 20px;
+            background: #252525;
+            border: 2px solid #333333;
+            color: #cccccc;
+            text-decoration: none;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.2s;
+            font-family: 'Courier New', monospace;
+            z-index: 1000;
+        }
+
+        .back-button:hover {
+            background: #333333;
+            border-color: #444444;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-button">← BACK</a>
+
+    <div class="poster-container">
+        <div class="poster-header">
+            <h1>MISSING</h1>
+        </div>
+
+        <div class="poster-body">
+            <div class="poster-image">
+                <img id="poster-image" src="" alt="Missing Person">
+            </div>
+
+            <div class="name-section">
+                <div class="info-label">NAME</div>
+                <div class="name" id="poster-name"></div>
+                <div class="species" id="poster-species"></div>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-label">HEIGHT</div>
+                    <div class="info-value" id="poster-height"></div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">WEIGHT</div>
+                    <div class="info-value" id="poster-weight"></div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">LAST SEEN</div>
+                    <div class="info-value" id="poster-location"></div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">LAST SEEN WITH</div>
+                    <div class="info-value highlight" id="poster-with"></div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-label">STATUS</div>
+                <div class="status">MISSING</div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-label">DISTINGUISHING FEATURES</div>
+                <div class="description" id="poster-features"></div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-label">NOTES</div>
+                <div class="notes" id="poster-notes"></div>
+            </div>
+
+            <div class="contact-section">
+                <div class="info-label">IF YOU HAVE ANY INFORMATION, CALL</div>
+                <div class="phone" id="poster-phone"></div>
+                <div class="subtext">
+                    ◆ ALL TIPS TREATED AS CONFIDENTIAL ◆<br>
+                    ◆ REWARD OFFERED FOR INFORMATION LEADING TO SAFE RETURN ◆
+                </div>
+                <div class="case-number" id="poster-case"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get data from URL parameters or use defaults
+        const urlParams = new URLSearchParams(window.location.search);
+        let data;
+        
+        try {
+            data = JSON.parse(decodeURIComponent(urlParams.get('data') || '{}'));
+        } catch (e) {
+            data = {};
+        }
+
+        // Default/placeholder data
+        const defaultData = {
+            imageUrl: 'https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=600&q=80',
+            name: 'MIKE',
+            species: 'Sea Otter (Enhydra lutris)',
+            height: '4\'2" (standing)',
+            weight: '65 lbs',
+            lastSeen: 'Tampa, FL',
+            lastSeenWith: 'Jynxzi',
+            features: 'Thick brown fur, friendly demeanor. Known for floating on his back and cracking jokes. Always made the whole place feel lighter.',
+            notes: 'Disappeared without warning. No goodbye. No sign. If you have any information, you already know why you\'re reading this.',
+            phone: '123 - 676 - 6767',
+            caseNumber: 'CASE NO. JY-007 · FILED MA.HOKOJAI'
+        };
+
+        // Merge with defaults
+        const finalData = { ...defaultData, ...data };
+
+        // Populate the poster
+        document.getElementById('poster-image').src = finalData.imageUrl;
+        document.getElementById('poster-name').textContent = `"${finalData.name}"`;
+        document.getElementById('poster-species').textContent = finalData.species;
+        document.getElementById('poster-height').textContent = finalData.height;
+        document.getElementById('poster-weight').textContent = finalData.weight;
+        document.getElementById('poster-location').textContent = finalData.lastSeen;
+        document.getElementById('poster-with').textContent = finalData.lastSeenWith;
+        document.getElementById('poster-features').textContent = finalData.features;
+        document.getElementById('poster-notes').textContent = finalData.notes;
+        document.getElementById('poster-phone').textContent = finalData.phone;
+        document.getElementById('poster-case').textContent = finalData.caseNumber;
+    </script>
+</body>
+</html>

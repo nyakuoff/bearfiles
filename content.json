@@ -1,0 +1,60 @@
+{
+  "releaseAt": "2026-02-11T22:30:20Z",
+  "documents": [
+    {
+      "filename": "STORY-001.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 09:23:14",
+      "body": "Alright… I'm not saying this for attention.\n\nI'm saying it because every time I don't, it just sits there. Gets heavier.\n\nMost of you probably won't know what I'm talking about right away. That's fine.\nJust hear me out.\n\nThis is about [[REDACT:Passion]].\n\nYeah — that [[REDACT:Passion]].\n\nPeople knew him. Not like a celebrity or anything — just a kid everyone had seen around. Loud, annoying sometimes, funny without trying. Always doing his thing. You didn't have to be close to know who he was.\n\nAnd then one day… [[REDACT:Passion]] stopped showing up.\n\nNo message. No explanation.\n\nAnd everyone just acted like that was normal."
+    },
+    {
+      "filename": "STORY-002.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 10:45:22",
+      "body": "Let me put it plainly.\n\n[[REDACT:Passion]] didn't just disappear on his own.\n\nI know how that sounds. People vanish all the time. But this wasn't like that. He wasn't drifting away or slowly going quiet. He was there, consistently, and then suddenly he wasn't.\n\nThat night?\n\nNothing.\nNo goodbye.\nNo heads up.\nNothing.\n\nIt felt wrong. Like something got cut off mid-sentence.\n\nI remember thinking: this isn't how he leaves.\n\nWhich means something else had to have happened.\n\nSomeone interfered.\nSomeone made a choice."
+    },
+    {
+      "filename": "STORY-003.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 12:12:03",
+      "body": "There's one part of this you can't ignore.\n\nBear was the last one with [[REDACT:Passion]].\n\nThat's not an accusation. It's just a fact. They were friends. Hung out. Same spaces, same nights. If you asked who he was closest to at the time, Bear would come up every time.\n\nWhen [[REDACT:Passion]] stopped showing up, Bear kept going like nothing had changed.\n\nSame routines. Same jokes. Same energy.\n\nWhen someone finally asked where [[REDACT:Passion]] went, the answer came fast.\n\n\"He just dipped.\"\n\nBut people don't just dip without telling anyone.\n\nEspecially not him."
+    },
+    {
+      "filename": "STORY-004.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 14:30:45",
+      "body": "At first it was just quiet confusion.\n\nPeople checking DMs. Asking around. Wondering if anyone had heard from him.\n\nAvarice mentioned seeing Bear with [[REDACT:Passion]] right before everything stopped. Nothing dramatic. Just enough to remember later.\n\nA few people tried asking Bear directly. He brushed it off. Said not to worry about it. Changed the subject.\n\nAfter that, the questions slowed down.\n\nNot because they were answered.\n\nBut because nobody wanted to push."
+    },
+    {
+      "filename": "STORY-005.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 16:18:29",
+      "body": "This is where it stops feeling like coincidence.\n\nWeeks passed. Then more.\n\n[[REDACT:Passion]] never came back. No message. No explanation later. Just gone.\n\nPeople started rewriting it in their heads. Saying he probably got bored. Probably moved on. Probably didn't matter as much as it felt like it did.\n\nBut every version of that story leaves the same gap.\n\nNo one ever heard it from him.\n\nSomeone else spoke for him.\n\nAnd nobody questioned it."
+    },
+    {
+      "filename": "STORY-006.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 18:55:17",
+      "body": "I'm not saying I know exactly what happened.\n\nI'm saying the silence doesn't make sense.\n\nThis isn't about drama. Or blaming someone. Or digging things up for fun.\n\nIt's about a kid everyone knew suddenly vanishing, and the people around him acting like that's just how things go.\n\nIf you remember him, don't let that be the end of it.\n\nAsk questions.\n\nAt least admit something's wrong."
+    },
+    {
+      "filename": "MISSING-CARD.html",
+      "classification": "MISSING",
+      "timestamp": "CASE NO. JZ-013",
+      "isMissingPoster": true,
+      "missingData": {
+        "imageUrl": "passion.png",
+        "name": "PASSION",
+        "species": "Human (Toddler)",
+        "height": "2'4\" (standing)",
+        "weight": "26 lbs",
+        "lastSeen": "Tampa, FL",
+        "lastSeenWith": "BeardBears",
+        "features": "Young toddler with a closely shaved haircut, rounded head, and serious expression; small, compact build; dark eyes; holding a slice of watermelon and a purple sponge while sitting in a white bucket.",
+        "notes": "Disappeared without warning. No goodbye. No sign. If you have any information, you already know why you're reading this.",
+        "phone": "482 - 915 - 3076",
+        "caseNumber": "CASE NO. JZ-013"
+      }
+    }
+  ]
+}

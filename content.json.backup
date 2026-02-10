@@ -1,0 +1,46 @@
+{
+  "releaseAt": "2026-02-09T22:30:20Z",
+  "documents": [
+    {
+      "filename": "STORY-001.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 09:23:14",
+      "body": "Alright… I’m not saying this for attention.\n\nI’m saying it because every time I don’t, it just sits there. Gets heavier.\n\nMost of you probably won’t know what I’m talking about right away. That’s fine.\nJust hear me out.\n\nThis is about [[REDACT:Passion]].\n\nYeah — that [[REDACT:Passion]].\n\nPeople knew him. Not like a celebrity or anything — just a kid everyone had seen around. Loud, annoying sometimes, funny without trying. Always doing his thing. You didn’t have to be close to know who he was.\n\nAnd then one day… [[REDACT:Passion]] stopped showing up.\n\nNo message. No explanation.\n\nAnd everyone just acted like that was normal."
+    },
+    {
+      "filename": "STORY-002.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 10:45:22",
+      "body": "Let me put it plainly.\n\n[[REDACT:Passion]] didn’t just disappear on his own.\n\nI know how that sounds. People vanish all the time. But this wasn’t like that. He wasn’t drifting away or slowly going quiet. He was there, consistently, and then suddenly he wasn’t.\n\nThat night?\n\nNothing.\nNo goodbye.\nNo heads up.\nNothing.\n\nIt felt wrong. Like something got cut off mid-sentence.\n\nI remember thinking: this isn’t how he leaves.\n\nWhich means something else had to have happened.\n\nSomeone interfered.\nSomeone made a choice."
+    },
+    {
+      "filename": "STORY-003.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 12:12:03",
+      "body": "There’s one part of this you can’t ignore.\n\nBear was the last one with [[REDACT:Passion]].\n\nThat’s not an accusation. It’s just a fact. They were friends. Hung out. Same spaces, same nights. If you asked who he was closest to at the time, Bear would come up every time.\n\nWhen [[REDACT:Passion]] stopped showing up, Bear kept going like nothing had changed.\n\nSame routines. Same jokes. Same energy.\n\nWhen someone finally asked where [[REDACT:Passion]] went, the answer came fast.\n\n\"He just dipped.\"\n\nBut people don’t just dip without telling anyone.\n\nEspecially not him."
+    },
+    {
+      "filename": "STORY-004.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 14:30:45",
+      "body": "At first it was just quiet confusion.\n\nPeople checking DMs. Asking around. Wondering if anyone had heard from him.\n\nAvarice mentioned seeing Bear with [[REDACT:Passion]] right before everything stopped. Nothing dramatic. Just enough to remember later.\n\nA few people tried asking Bear directly. He brushed it off. Said not to worry about it. Changed the subject.\n\nAfter that, the questions slowed down.\n\nNot because they were answered.\n\nBut because nobody wanted to push."
+    },
+    {
+      "filename": "STORY-005.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 16:18:29",
+      "body": "This is where it stops feeling like coincidence.\n\nWeeks passed. Then more.\n\n[[REDACT:Passion]] never came back. No message. No explanation later. Just gone.\n\nPeople started rewriting it in their heads. Saying he probably got bored. Probably moved on. Probably didn’t matter as much as it felt like it did.\n\nBut every version of that story leaves the same gap.\n\nNo one ever heard it from him.\n\nSomeone else spoke for him.\n\nAnd nobody questioned it."
+    },
+    {
+      "filename": "STORY-006.txt",
+      "classification": "Confidential",
+      "timestamp": "2026-02-09 18:55:17",
+      "body": "I’m not saying I know exactly what happened.\n\nI’m saying the silence doesn’t make sense.\n\nThis isn’t about drama. Or blaming someone. Or digging things up for fun.\n\nIt’s about a kid everyone knew suddenly vanishing, and the people around him acting like that’s just how things go.\n\nIf you remember him, don’t let that be the end of it.\n\nAsk questions.\n\nAt least admit something’s wrong."    },
+    {
+      "filename": "MISSING-PERSON.html",
+      "classification": "MISSING",
+      "timestamp": "CASE NO. JY-007",
+      "isSpecial": true,
+      "body": "<div class=\"missing-poster\">\n  <div class=\"missing-header\">MISSING</div>\n  <div class=\"missing-image-container\">\n    <img src=\"https://i.imgur.com/placeholder-otter.jpg\" alt=\"Mike the Sea Otter\" class=\"missing-image\">\n  </div>\n  <div class=\"missing-section\">\n    <div class=\"missing-label\">NAME</div>\n    <div class=\"missing-name\">\"MIKE\"</div>\n    <div class=\"missing-species\">Sea Otter (Enhydra lutris)</div>\n  </div>\n  <div class=\"missing-info-grid\">\n    <div class=\"missing-info-item\">\n      <div class=\"missing-label\">HEIGHT</div>\n      <div class=\"missing-value\">4'2\" (standing)</div>\n    </div>\n    <div class=\"missing-info-item\">\n      <div class=\"missing-label\">WEIGHT</div>\n      <div class=\"missing-value\">65 lbs</div>\n    </div>\n    <div class=\"missing-info-item\">\n      <div class=\"missing-label\">LAST SEEN</div>\n      <div class=\"missing-value\">Tampa, FL</div>\n    </div>\n    <div class=\"missing-info-item\">\n      <div class=\"missing-label\">LAST SEEN WITH</div>\n      <div class=\"missing-value missing-highlight\">Jynxzi</div>\n    </div>\n  </div>\n  <div class=\"missing-section\">\n    <div class=\"missing-label\">STATUS</div>\n    <div class=\"missing-status\">MISSING</div>\n  </div>\n  <div class=\"missing-section\">\n    <div class=\"missing-label\">DISTINGUISHING FEATURES</div>\n    <div class=\"missing-description\">Thick brown fur, friendly demeanor. Known for floating on his back and cracking jokes. Always made the whole place feel lighter.</div>\n  </div>\n  <div class=\"missing-section\">\n    <div class=\"missing-label\">NOTES</div>\n    <div class=\"missing-notes\">Disappeared without warning. No goodbye. No sign. If you have any information, you already know why you're reading this.</div>\n  </div>\n  <div class=\"missing-section\">\n    <div class=\"missing-label\">IF YOU HAVE ANY INFORMATION, CALL</div>\n    <div class=\"missing-phone\">123 - 676 - 6767</div>\n    <div class=\"missing-subtext\">◆ ALL TIPS TREATED AS CONFIDENTIAL ◆◆ REWARD OFFERED FOR INFORMATION LEADING TO SAFE RETURN ◆</div>\n  </div>\n  <div class=\"missing-footer\">CASE NO. JY-007 · FILED MA.HOKOJAI</div>\n</div>"    }
+  ]
+}
